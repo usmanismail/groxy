@@ -11,6 +11,7 @@ import (
 
 type GroxyConfig interface {
 	GetSwarmHost() string
+	GetSwarmVersion() string
 	GetServices() <-chan GroxyService
 }
 
@@ -52,6 +53,10 @@ func parseConfig(configFile *os.File) (GroxyConfig, error) {
 
 func (this GroxyConfiguration) GetSwarmHost() string {
 	return this.SwarmHost
+}
+
+func (this GroxyConfiguration) GetSwarmVersion() string {
+	return this.SwarmVersion
 }
 
 func (this GroxyConfiguration) GetServices() <-chan GroxyService {

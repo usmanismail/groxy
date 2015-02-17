@@ -1,6 +1,6 @@
 [
     {
-        "Id": "TEST1",
+        "Id": "1a6aec0f0912aa3b5c383acbc230dc734c559afe18ee9652ab58de94fd16f3d9",
         "Names": [
             "/boot2docker/silly_mayer"
         ],
@@ -20,27 +20,7 @@
         "SizeRootFs": 0
     },
     {
-        "Id": "TEST2",
-        "Names": [
-            "/boot2docker/silly_mayer"
-        ],
-        "Image": "ubuntu:14.04",
-        "Command": "bash",
-        "Created": 1423866219,
-        "Status": "Down",
-        "Ports": [
-            {
-                "IP": "192.168.59.103",
-                "PrivatePort": 9000,
-                "PublicPort": 9000,
-                "Type": "tcp"
-            }
-        ],
-        "SizeRw": 0,
-        "SizeRootFs": 0
-    },    
-    {
-        "Id": "TEST3",
+        "Id": "05979a16327413f1cded893dd7abc961568cb9b16958661403d6e16017f31f66",
         "Names": [
             "/boot2docker/berserk_wozniak"
         ],
@@ -53,7 +33,7 @@
         "SizeRootFs": 0
     },
     {
-        "Id": "TEST4",
+        "Id": "dabb5ecc88f1e1722f7f611eb18f71f250d2b938446cf2b0a44006e1b572eb31",
         "Names": [
             "/boot2docker/fervent_nobel"
         ],

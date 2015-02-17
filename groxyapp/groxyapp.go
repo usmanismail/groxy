@@ -26,7 +26,7 @@ func (this GroxyApplication) Start() error {
 	var wg sync.WaitGroup
 
 	log.Println("Starting DockerSwarm Poller")
-	_swarmpoller := swarmpoller.CreateSwarmPoller(this.config.GetSwarmHost())
+	_swarmpoller := swarmpoller.CreateSwarmPoller(this.config.GetSwarmHost(), this.config.GetSwarmVersion())
 	_swarmpoller.Start()
 	wg.Add(1)
 
